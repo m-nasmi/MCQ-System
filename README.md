@@ -7,13 +7,11 @@ A full-stack web application for managing online exams, allowing students to tak
 ### Student Features
 - 🖥 Take interactive MCQ exams
 - 📊 View exam results with score breakdowns
-- 📅 Track exam history and progress
 
 ### Admin Features
 - ✏ Create and manage exams (CRUD operations)
 - ❓ Add/Edit questions with multiple choice options
 - 📦 Organize exams by categories/subjects
-- 📈 View student performance analytics
 
 ## 🛠 Tech Stack
 
@@ -189,13 +187,11 @@ Response:
 student-exam-app/
 ├── backend/
 │   ├── models/
-│   │   ├── Exam.js
-│   │   ├── User.js
-│   │   └── Result.js
+│   │   ├── Exam.js 
+│   │  
 │   ├── routes/
 │   │   ├── examRoutes.js
-│   │   ├── authRoutes.js
-│   │   └── resultRoutes.js
+│   │   
 │   ├── middleware/
 │   │   └── auth.js
 │   ├── config/
