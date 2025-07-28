@@ -187,28 +187,26 @@ Response:
 student-exam-app/
 ├── backend/
 │   ├── models/
-│   │   ├── Exam.js 
-│   │  
+│   │   ├── Exam.js  
 │   ├── routes/
 │   │   ├── examRoutes.js
-│   │   
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── config/
-│   │   └── database.js
+│   │── db.js
 │   ├── server.js
 │   └── package.json
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── ExamList.jsx
-│   │   │   ├── ExamTaker.jsx
-│   │   │   ├── AdminPanel.jsx
-│   │   │   └── ResultsView.jsx
+│   │   │   ├── ExamCard.jsx
+│   │   │   ├── SidebarNavigation.jsx
+│   │   │   └── Question.jsx
 │   │   ├── pages/
 │   │   │   ├── Home.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   └── Login.jsx
+│   │   │   ├── AddexamPage.jsx
+│   │   │   ├── ExamPage.jsx
+│   │   │   ├── ExamList.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── ResultPage.jsx
 │   │   ├── utils/
 │   │   │   └── api.js
 │   │   ├── App.jsx
